@@ -16,3 +16,5 @@ paradox21/
 /client/package-lock.json
 
 .vscode
+*.lock
+package-lock.json

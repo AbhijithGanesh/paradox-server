@@ -5,11 +5,12 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "lint": "eslint .",
     "dev": "npx nodemon index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ishivanshgoel/Cryptic-Hunt-.git"
+    "url": "https://github.com/ComputerSocietyVITC/paradox-server.git"
   },
   "author": "",
   "license": "ISC",
@@ -22,21 +23,27 @@
     "bcrypt": "^5.0.0",
     "body-parser": "^1.19.1",
     "cors": "^2.8.5",
-    "dotenv": "^8.6.0",
+    "dotenv": "^16.0.0",
     "express": "^4.17.1",
     "gsap": "^3.6.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.1.8",
     "morgan": "^1.10.0",
     "nodemailer": "^6.7.2",
+    "passport-jwt": "^4.0.0",
     "popper.js": "^1.16.1",
     "quart": "^0.5.0",
     "react-helmet": "^6.1.0",
     "react-script-tag": "^1.1.2",
-    "three": "^0.126.0",
+    "three": "^0.138.0",
     "vanta": "^0.5.21"
   },
   "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0",
     "nodemon": "^2.0.15"
   }
 }
